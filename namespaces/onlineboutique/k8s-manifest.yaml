@@ -206,6 +206,7 @@ spec:
   selector:
     matchLabels:
       app: frontend
+  replicas: 2
   template:
     metadata:
       labels:
